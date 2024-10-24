@@ -1,0 +1,87 @@
+<!-- Doctype me permite indicar la versión de HTML que estoy utilizando - V5 -->
+ <!Doctype HTML>
+ <html lang="es">
+ <!-- Todo lo que se ve, toda la parte visual -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"   content="width=device-width, initial-scale1.0" />
+        <TITle>Estructura Slack</TITle>
+    </head>
+    <!-- TODO lo que se ve , toda la parte visual -->
+    <body>
+        <nav id="menu">
+            <!-- span, etiqueta NO SEMÁNTICA, pero me permite envolver texto, resaltador -->
+            <span>Slack</span>
+            <!-- Lista desordenada -->
+            <ul>
+                <!-- li, elementos de una lista -->
+                <li>Funciones</li>
+                <li>Soluciones</li>
+                <li>Recursos</li>
+                <li>Precio</li>
+            </ul>
+            <!-- div, divisor, NO ES UNA ETIQUETA SEMÁNTICA -->
+             <div>
+                <!-- Hipervínculo que me permite ir a otro lado -->
+                 <a href="https://www.tecsup.edu.pe">inciar Sesión</a>
+                 <!-- button, botón para disparar una acción -->
+                <button>Hablar con Asesor</button>
+                 <button>Probar gratis</button>
+             </div>
+        </nav>
+        <!-- HR, Horizontal rule, línea horizontal (divisoria) -->
+        <HR />
+        <header>
+            <div>
+                <h1>
+                    CREADA PARA LAS PERSONAS.
+                    DISEÑADAS PARA LA PRODUCTIVIDAD
+                </h1>
+                <P>
+                    Conéctate con las persinas que necesitas, encuentra lo que queiras
+                </P>
+                <button>
+                    Iniciar Sesión
+                </button>
+                <button>
+                    Regístrate con tu correo
+                </button>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, sed.
+                </p>
+            </div>
+            <!-- Imagen, siempre que vaya con alt -->
+             <img src="https://st3.depositphotos.com/3287005/13699/v/450/depositphotos_136992408-stock-illustration-application-forms-set.jpg" width="450" alt="Foto de formulario" />
+        </header>
+        <!-- Main, cuerpo principal de la página -->
+        <main>
+            <section>
+                <!-- MAS LIGEROS: webp, jpg, svg .. EVITAR: PNG -->
+                 <!-- RUTAS BASOLUTAS (no utilizar, solo Backend) Y RELATIVAS ( ./ ) -->
+                <img src="./image (1).png" alt="Formulario 2" 
+                width="400">
+                <div>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, officia?
+                 </h2>
+                 <!-- p de Parrafo -->
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti dolorem nesciunt quia delectus, 
+                    <span> unde obcaecati voluptas saepe ipsa ipsum soluta!</span>
+                </p>
+                <a href="#">
+                    Lorem ipsum dolor sit amet consectetur.
+                </a>
+                <!-- Break, salto de línea -->
+                <br />
+                <a href="./extra.html" target="_blank">Más Información
+                </a>
+                <br />
+                <a href="#menu">Ir a Menú</a>
+                </div>
+            </section>
+            <section>
+
+            </section>
+        </main>
+    </body>
+ </html>
