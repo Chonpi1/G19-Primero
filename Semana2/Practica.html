@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <H1>TÍTULO</H1>
+    <p>Este es un párrafo de ejemplo</p>
+</header>
+<body>
+    <form>
+       <label for="input-nombre">Nombre: </label>
+       <input type="text" id="input-nombre" placeholder="Ingrese su nombre" pattern="[a-zA-Z]">
+       <br />
+       <br />
+
+       <label for="input-edad">Edad: </label>
+       <input type="number" id="input-edad" max="2" placeholder="Ingrese su edad">
+       <br>
+       <br>
+
+       <label for="input-hobbies">Hobbies: </label>
+       <select name="" id="input-hobbies">
+       <option>Futbol</option>
+       <option>Lectura</option>
+       <option>Jardineria</option>
+        </select>
+        <br>
+        <br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Hobbies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td rowspan="2">Fútbol</td>
+            </tr>
+            <tr>
+                <td>Pablo</td>
+            </tr>
+            <tr>
+                <td>María</td>
+                <td>Lectura</td>
+            </tr>
+            <tr>
+                <td>Andrea</td>
+                <td>Jardinería</td>
+            </tr>
+            <tr>
+               <td>Carlos</td>
+               <td rowspan="2">Lectura</td>
+            </tr>
+            <tr>
+                <td>Laura</td>
+            </tr>
+            <tr>
+                <td>Sofia</td>
+                <td>Fútbol</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+</body>
+</html>
